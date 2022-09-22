@@ -6,7 +6,7 @@ exports.findAll = (req,res) =>{
 }
 exports.findOne = (req,res) =>{
     res.send({message: "findOne handler"})
-}
+}  
 exports.update = (req,res) =>{
     res.send({message: "update handler"})
 }
